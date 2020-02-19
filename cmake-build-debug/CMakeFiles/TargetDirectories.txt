@@ -1,0 +1,3 @@
+/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles/progalaba2.dir
