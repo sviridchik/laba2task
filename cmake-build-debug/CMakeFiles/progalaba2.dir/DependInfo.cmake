@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/victoriasviridchik/CLionProjects/progalaba2/main.c" "/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles/progalaba2.dir/main.c.o"
+  "/Users/victoriasviridchik/CLionProjects/progalaba2/MainFile.c" "/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles/progalaba2.dir/MainFile.c.o"
+  "/Users/victoriasviridchik/CLionProjects/progalaba2/task1.c" "/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles/progalaba2.dir/task1.c.o"
+  "/Users/victoriasviridchik/CLionProjects/progalaba2/task2.c" "/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles/progalaba2.dir/task2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

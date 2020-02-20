@@ -2,7 +2,7 @@
 #include <math.h>
 #include <limits.h>
 
-double from_str_to_double(char s[125]) {
+double from_str_to_double1(const char s[125]) {
     if (s[0] == '-') {
         printf("%s", " Should be positive! EVERETHING\n");
         return -1;
@@ -34,16 +34,22 @@ double from_str_to_double(char s[125]) {
 }
 
 
-int main() {
+int task1() {
     double x, part, sum = 0, eps, diff;
     int n = 0, i = 1;
     char s_x[125], s_eps[125];
     printf("Enter argument and infelicity\n");
     scanf("%s %s", s_x, s_eps);
-    x = from_str_to_double(s_x);
-    eps = from_str_to_double(s_eps);
-    if(x>35){printf("Too big argument\n");
-       return 0;}
+    x = from_str_to_double1(s_x);
+    eps = from_str_to_double1(s_eps);
+
+    while (x>=M_PI){
+        x = x-2*M_PI;
+    }
+    while (x<=-M_PI){
+        x = x+2*M_PI;
+    }
+
     if (eps > 0 && eps < 1 && x != -1) {
         diff = 1 + eps;
         part = x;

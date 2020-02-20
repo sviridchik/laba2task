@@ -123,32 +123,86 @@ progalaba2/fast:
 	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/build
 .PHONY : progalaba2/fast
 
-main.o: main.c.o
+MainFile.o: MainFile.c.o
 
-.PHONY : main.o
+.PHONY : MainFile.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/main.c.o
-.PHONY : main.c.o
+MainFile.c.o:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/MainFile.c.o
+.PHONY : MainFile.c.o
 
-main.i: main.c.i
+MainFile.i: MainFile.c.i
 
-.PHONY : main.i
+.PHONY : MainFile.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/main.c.i
-.PHONY : main.c.i
+MainFile.c.i:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/MainFile.c.i
+.PHONY : MainFile.c.i
 
-main.s: main.c.s
+MainFile.s: MainFile.c.s
 
-.PHONY : main.s
+.PHONY : MainFile.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/main.c.s
-.PHONY : main.c.s
+MainFile.c.s:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/MainFile.c.s
+.PHONY : MainFile.c.s
+
+task1.o: task1.c.o
+
+.PHONY : task1.o
+
+# target to build an object file
+task1.c.o:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/task1.c.o
+.PHONY : task1.c.o
+
+task1.i: task1.c.i
+
+.PHONY : task1.i
+
+# target to preprocess a source file
+task1.c.i:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/task1.c.i
+.PHONY : task1.c.i
+
+task1.s: task1.c.s
+
+.PHONY : task1.s
+
+# target to generate assembly for a file
+task1.c.s:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/task1.c.s
+.PHONY : task1.c.s
+
+task2.o: task2.c.o
+
+.PHONY : task2.o
+
+# target to build an object file
+task2.c.o:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/task2.c.o
+.PHONY : task2.c.o
+
+task2.i: task2.c.i
+
+.PHONY : task2.i
+
+# target to preprocess a source file
+task2.c.i:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/task2.c.i
+.PHONY : task2.c.i
+
+task2.s: task2.c.s
+
+.PHONY : task2.s
+
+# target to generate assembly for a file
+task2.c.s:
+	$(MAKE) -f CMakeFiles/progalaba2.dir/build.make CMakeFiles/progalaba2.dir/task2.c.s
+.PHONY : task2.c.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... progalaba2"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... MainFile.o"
+	@echo "... MainFile.i"
+	@echo "... MainFile.s"
+	@echo "... task1.o"
+	@echo "... task1.i"
+	@echo "... task1.s"
+	@echo "... task2.o"
+	@echo "... task2.i"
+	@echo "... task2.s"
 .PHONY : help
 
 

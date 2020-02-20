@@ -80,7 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/victoriasviridchik/CLionProjects/progalaba2/main.c">
+		<Unit filename="/Users/victoriasviridchik/CLionProjects/progalaba2/MainFile.c">
+			<Option target="progalaba2"/>
+		</Unit>
+		<Unit filename="/Users/victoriasviridchik/CLionProjects/progalaba2/qwerty.h">
+			<Option target="progalaba2"/>
+		</Unit>
+		<Unit filename="/Users/victoriasviridchik/CLionProjects/progalaba2/task1.c">
+			<Option target="progalaba2"/>
+		</Unit>
+		<Unit filename="/Users/victoriasviridchik/CLionProjects/progalaba2/task2.c">
 			<Option target="progalaba2"/>
 		</Unit>
 		<Unit filename="/Users/victoriasviridchik/CLionProjects/progalaba2/CMakeLists.txt">

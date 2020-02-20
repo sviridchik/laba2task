@@ -6,10 +6,30 @@
 
 #IncludeRegexTransform: 
 
-/Users/victoriasviridchik/CLionProjects/progalaba2/main.c
+/Users/victoriasviridchik/CLionProjects/progalaba2/MainFile.c
+stdio.h
+-
+string.h
+-
+qwerty.h
+/Users/victoriasviridchik/CLionProjects/progalaba2/qwerty.h
+
+/Users/victoriasviridchik/CLionProjects/progalaba2/qwerty.h
+
+/Users/victoriasviridchik/CLionProjects/progalaba2/task1.c
 stdio.h
 -
 math.h
+-
+limits.h
+-
+
+/Users/victoriasviridchik/CLionProjects/progalaba2/task2.c
+stdio.h
+-
+string.h
+-
+stdlib.h
 -
 limits.h
 -

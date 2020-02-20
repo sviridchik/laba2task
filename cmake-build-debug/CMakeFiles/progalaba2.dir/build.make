@@ -57,30 +57,60 @@ include CMakeFiles/progalaba2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/progalaba2.dir/flags.make
 
-CMakeFiles/progalaba2.dir/main.c.o: CMakeFiles/progalaba2.dir/flags.make
-CMakeFiles/progalaba2.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/progalaba2.dir/main.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/progalaba2.dir/main.c.o   -c /Users/victoriasviridchik/CLionProjects/progalaba2/main.c
+CMakeFiles/progalaba2.dir/task1.c.o: CMakeFiles/progalaba2.dir/flags.make
+CMakeFiles/progalaba2.dir/task1.c.o: ../task1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/progalaba2.dir/task1.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/progalaba2.dir/task1.c.o   -c /Users/victoriasviridchik/CLionProjects/progalaba2/task1.c
 
-CMakeFiles/progalaba2.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/progalaba2.dir/main.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/victoriasviridchik/CLionProjects/progalaba2/main.c > CMakeFiles/progalaba2.dir/main.c.i
+CMakeFiles/progalaba2.dir/task1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/progalaba2.dir/task1.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/victoriasviridchik/CLionProjects/progalaba2/task1.c > CMakeFiles/progalaba2.dir/task1.c.i
 
-CMakeFiles/progalaba2.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/progalaba2.dir/main.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/victoriasviridchik/CLionProjects/progalaba2/main.c -o CMakeFiles/progalaba2.dir/main.c.s
+CMakeFiles/progalaba2.dir/task1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/progalaba2.dir/task1.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/victoriasviridchik/CLionProjects/progalaba2/task1.c -o CMakeFiles/progalaba2.dir/task1.c.s
+
+CMakeFiles/progalaba2.dir/MainFile.c.o: CMakeFiles/progalaba2.dir/flags.make
+CMakeFiles/progalaba2.dir/MainFile.c.o: ../MainFile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/progalaba2.dir/MainFile.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/progalaba2.dir/MainFile.c.o   -c /Users/victoriasviridchik/CLionProjects/progalaba2/MainFile.c
+
+CMakeFiles/progalaba2.dir/MainFile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/progalaba2.dir/MainFile.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/victoriasviridchik/CLionProjects/progalaba2/MainFile.c > CMakeFiles/progalaba2.dir/MainFile.c.i
+
+CMakeFiles/progalaba2.dir/MainFile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/progalaba2.dir/MainFile.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/victoriasviridchik/CLionProjects/progalaba2/MainFile.c -o CMakeFiles/progalaba2.dir/MainFile.c.s
+
+CMakeFiles/progalaba2.dir/task2.c.o: CMakeFiles/progalaba2.dir/flags.make
+CMakeFiles/progalaba2.dir/task2.c.o: ../task2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/progalaba2.dir/task2.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/progalaba2.dir/task2.c.o   -c /Users/victoriasviridchik/CLionProjects/progalaba2/task2.c
+
+CMakeFiles/progalaba2.dir/task2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/progalaba2.dir/task2.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/victoriasviridchik/CLionProjects/progalaba2/task2.c > CMakeFiles/progalaba2.dir/task2.c.i
+
+CMakeFiles/progalaba2.dir/task2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/progalaba2.dir/task2.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/victoriasviridchik/CLionProjects/progalaba2/task2.c -o CMakeFiles/progalaba2.dir/task2.c.s
 
 # Object files for target progalaba2
 progalaba2_OBJECTS = \
-"CMakeFiles/progalaba2.dir/main.c.o"
+"CMakeFiles/progalaba2.dir/task1.c.o" \
+"CMakeFiles/progalaba2.dir/MainFile.c.o" \
+"CMakeFiles/progalaba2.dir/task2.c.o"
 
 # External object files for target progalaba2
 progalaba2_EXTERNAL_OBJECTS =
 
-progalaba2: CMakeFiles/progalaba2.dir/main.c.o
+progalaba2: CMakeFiles/progalaba2.dir/task1.c.o
+progalaba2: CMakeFiles/progalaba2.dir/MainFile.c.o
+progalaba2: CMakeFiles/progalaba2.dir/task2.c.o
 progalaba2: CMakeFiles/progalaba2.dir/build.make
 progalaba2: CMakeFiles/progalaba2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable progalaba2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/victoriasviridchik/CLionProjects/progalaba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable progalaba2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/progalaba2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/progalaba2.dir/main.c.o  -o progalaba2 
+/Library/Developer/CommandLineTools/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/progalaba2.dir/task1.c.o CMakeFiles/progalaba2.dir/MainFile.c.o CMakeFiles/progalaba2.dir/task2.c.o  -o progalaba2 
